@@ -1,7 +1,7 @@
 import socket
 import sys
 HOST = ''   # Symbolic name, meaning all available interfaces
-PORT = 5500 # Arbitrary non-privileged port
+PORT = 6675 # Arbitrary non-privileged port
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 print 'Socket created'
 #Bind socket to local host and port
